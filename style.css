@@ -1,0 +1,119 @@
+/*********************Navigation Bar***********************************/
+.location{
+
+}
+.location>h5{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.location>p{
+    margin: 0px;
+   font-size: 13px;
+   font-weight: 400;
+}
+.verticle-line{
+    height: 55px;
+    border-left: 1px solid #f2f2f2;
+}
+.search{
+    padding: 0px 12px;
+    border: 1px solid rgb(232,232,232);
+    border-radius: 12px;
+    background: rgb(248,248,248);
+    color: rgb(130,130,130)
+}
+.search>input{
+    border: none;
+    background-color: transparent;
+    width: 40vw;
+    height: 45px;
+}
+::place-holder{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(153,153,153);
+}
+.my-cart{
+   background-color: rgb(12, 131, 31) !important;
+   font-size: 14px !important;
+}
+/**********************  Paan-corner-Banner  **********************************/
+.paan{
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.paan>img{
+    max-width: 100%;
+    height: auto;
+}
+/**********************  List Section  ***************************************/
+.my-container{
+    padding-left: 35px;
+    padding-right: 30px;
+    max-width:99%;
+    overflow-x:scroll;
+}
+.my-list{
+    max-width: 100%;
+    white-space: nowrap;
+    height: auto;
+}
+/***********************  Dairy Products  ***********************************/
+.category-section{
+    padding-left: 35px;
+    padding-right: 30px;
+    width: 99%;
+   
+    overflow-x: scroll;
+    
+}
+.my-card{
+    width: 179px;
+    margin-inline:10px;
+}
+.my-card-time{
+    width:fit-content;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 0px 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+}
+.my-card-title{
+    color: rgb(54, 54, 54);
+    font-size: 12px;
+    font-weight: 700;
+}
+.my-card-weight{
+    color: grey;
+    font-size: 10px;
+}
+.card-price{
+    font-size: 12px;
+}
+/*************************  Footer Paragraph  ************************/
+.foot {
+    text-align: center;
+}
+
+.centered-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+    background-color:transparent;
+    border-radius: 10px;
+}
+
+/************************* Responsive Script  ************************/
+
+@media screen and (max-width: 480px){
+    .navbar a:not(:first-child){
+        display: none;
+    }
+    
+}
